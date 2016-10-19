@@ -13,14 +13,14 @@
 * See the License for the specific language governing permissions and 
 * limitations under the License. 
 */
-package io.mappedbus;
-import io.mappedbus.MappedBusConstants.Commit;
-import io.mappedbus.MappedBusConstants.Length;
-import io.mappedbus.MappedBusConstants.Structure;
-
+package com.flytxt.ipc.mappedbus;
 import java.io.EOFException;
 import java.io.File;
 import java.io.IOException;
+
+import com.flytxt.ipc.mappedbus.MappedBusConstants.Commit;
+import com.flytxt.ipc.mappedbus.MappedBusConstants.Length;
+import com.flytxt.ipc.mappedbus.MappedBusConstants.Structure;
 
 /**
  * Class for writing messages to the bus.

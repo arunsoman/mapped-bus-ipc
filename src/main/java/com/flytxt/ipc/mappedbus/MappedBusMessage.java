@@ -13,7 +13,7 @@
 * See the License for the specific language governing permissions and 
 * limitations under the License. 
 */
-package io.mappedbus;
+package com.flytxt.ipc.mappedbus;
 
 /**
  * Interface for messages that can be serialized to the bus.
