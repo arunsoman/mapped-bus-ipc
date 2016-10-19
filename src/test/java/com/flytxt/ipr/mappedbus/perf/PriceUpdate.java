@@ -1,9 +1,8 @@
-package io.mappedbus.sample.object;
-import io.mappedbus.MemoryMappedFile;
-import io.mappedbus.MappedBusMessage;
+package com.flytxt.ipr.mappedbus.perf;
+import com.flytxt.ipc.mappedbus.MemoryMappedFile;
 
 
-public class PriceUpdate implements MappedBusMessage {
+public class PriceUpdate implements com.flytxt.ipc.mappedbus.MappedBusMessage {
 	
 	public static final int TYPE = 0;
 

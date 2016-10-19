@@ -1,6 +1,6 @@
-package io.mappedbus.sample.object;
-import io.mappedbus.MappedBusReader;
-import io.mappedbus.MappedBusMessage;
+package com.flytxt.ipr.mappedbus.perf.sample.object;
+import com.flytxt.ipc.mappedbus.MappedBusMessage;
+import com.flytxt.ipc.mappedbus.MappedBusReader;
 
 public class ObjectReader {
 

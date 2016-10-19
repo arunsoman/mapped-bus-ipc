@@ -1,5 +1,5 @@
-package io.mappedbus.sample.object;
-import io.mappedbus.MappedBusWriter;
+package com.flytxt.ipr.mappedbus.perf.sample.object;
+import com.flytxt.ipc.mappedbus.MappedBusWriter;
 
 public class ObjectWriter {
 

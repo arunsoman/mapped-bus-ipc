@@ -1,6 +1,6 @@
-package io.mappedbus.sample.token;
-import io.mappedbus.MemoryMappedFile;
-import io.mappedbus.MappedBusMessage;
+package com.flytxt.ipr.mappedbus.perf.sample.token;
+import com.flytxt.ipc.mappedbus.MappedBusMessage;
+import com.flytxt.ipc.mappedbus.MemoryMappedFile;
 
 
 public class Token implements MappedBusMessage {

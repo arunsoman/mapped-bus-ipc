@@ -1,7 +1,7 @@
-package io.mappedbus.perf;
-import io.mappedbus.MappedBusWriter;
-
+package com.flytxt.ipr.mappedbus.perf;
 import java.io.File;
+
+import com.flytxt.ipc.mappedbus.MappedBusWriter;
 
 public class MessageWriter {
 

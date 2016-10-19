@@ -1,7 +1,7 @@
-package io.mappedbus.sample.bytearray;
-import io.mappedbus.MappedBusWriter;
-
+package com.flytxt.ipr.mappedbus.perf.sample.bytearray;
 import java.util.Arrays;
+
+import com.flytxt.ipc.mappedbus.MappedBusWriter;
 
 public class ByteArrayWriter {
 

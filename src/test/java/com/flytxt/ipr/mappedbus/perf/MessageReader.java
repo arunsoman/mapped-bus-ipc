@@ -1,17 +1,15 @@
-package io.mappedbus.perf;
-import io.mappedbus.MappedBusReader;
-import io.mappedbus.MappedBusMessage;
+package com.flytxt.ipr.mappedbus.perf;
+import org.junit.Test;
+
+import com.flytxt.ipc.mappedbus.MappedBusMessage;
+import com.flytxt.ipc.mappedbus.MappedBusReader;
 
 public class MessageReader {
 
-	public static void main(String[] args) {
-		MessageReader reader = new MessageReader();
-		reader.run(args[0]);	
-	}
-
+	@Test
 	public void run(String fileName) {
 		try {
-			MappedBusReader reader = new MappedBusReader(fileName, 20000000000L, 12);
+			MappedBusReader reader = new MappedBusReader("/tmp/fileName", 20000000000L, 12);
 			reader.open();
 
 			PriceUpdate priceUpdate = new PriceUpdate();

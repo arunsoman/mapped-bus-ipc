@@ -1,7 +1,6 @@
-package io.mappedbus.sample.token;
-import io.mappedbus.MappedBusReader;
-import io.mappedbus.MappedBusWriter;
-import io.mappedbus.MappedBusMessage;
+package com.flytxt.ipr.mappedbus.perf.sample.token;
+import com.flytxt.ipc.mappedbus.MappedBusReader;
+import com.flytxt.ipc.mappedbus.MappedBusWriter;
 
 public class Node {
 
