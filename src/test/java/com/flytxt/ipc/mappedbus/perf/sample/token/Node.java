@@ -1,4 +1,4 @@
-package com.flytxt.ipr.mappedbus.perf.sample.token;
+package com.flytxt.ipc.mappedbus.perf.sample.token;
 import com.flytxt.ipc.mappedbus.MappedBusReader;
 import com.flytxt.ipc.mappedbus.MappedBusWriter;
 

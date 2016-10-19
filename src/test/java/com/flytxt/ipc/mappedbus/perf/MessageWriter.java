@@ -1,4 +1,4 @@
-package com.flytxt.ipr.mappedbus.perf;
+package com.flytxt.ipc.mappedbus.perf;
 import java.io.File;
 
 import com.flytxt.ipc.mappedbus.MappedBusWriter;

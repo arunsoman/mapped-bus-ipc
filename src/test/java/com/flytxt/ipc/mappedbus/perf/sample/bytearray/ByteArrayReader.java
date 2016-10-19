@@ -1,4 +1,4 @@
-package com.flytxt.ipr.mappedbus.perf.sample.bytearray;
+package com.flytxt.ipc.mappedbus.perf.sample.bytearray;
 import java.util.Arrays;
 
 import com.flytxt.ipc.mappedbus.MappedBusReader;

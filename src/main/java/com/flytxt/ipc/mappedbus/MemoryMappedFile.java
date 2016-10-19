@@ -63,7 +63,7 @@ public class MemoryMappedFile {
 	 * @param len the file length
 	 * @throws Exception in case there was an error creating the memory mapped file
 	 */
-	protected MemoryMappedFile(final String loc, long len) throws Exception {
+	public MemoryMappedFile(final String loc, long len) throws Exception {
 		this.loc = loc;
 		this.size = roundTo4096(len);
 		mapAndSetOffset();
@@ -177,7 +177,7 @@ public class MemoryMappedFile {
 	 * @param pos the position in the memory mapped file
 	 * @param val the value to write
 	 */
-	protected void putLongVolatile(long pos, long val) {
+	public void putLongVolatile(long pos, long val) {
 		unsafe.putLongVolatile(null, pos + addr, val);
 	}
 	

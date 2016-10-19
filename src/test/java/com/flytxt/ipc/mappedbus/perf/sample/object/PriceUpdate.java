@@ -1,4 +1,4 @@
-package com.flytxt.ipr.mappedbus.perf.sample.object;
+package com.flytxt.ipc.mappedbus.perf.sample.object;
 import com.flytxt.ipc.mappedbus.MappedBusMessage;
 import com.flytxt.ipc.mappedbus.MemoryMappedFile;
 
