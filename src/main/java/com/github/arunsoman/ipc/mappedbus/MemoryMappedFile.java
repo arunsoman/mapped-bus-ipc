@@ -1,7 +1,7 @@
 /* 
 * This class was inspired from an entry in Bryce Nyeggen's blog 
 */
-package com.github.aarunsoman.ipc.mappedbus;
+package com.github.arunsoman.ipc.mappedbus;
 import java.io.RandomAccessFile;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

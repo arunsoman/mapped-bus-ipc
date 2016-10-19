@@ -1,4 +1,4 @@
-package com.github.aarunsoman.ipc.mappedbus;
+package com.github.arunsoman.ipc.mappedbus;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
@@ -11,8 +11,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.github.aarunsoman.ipc.mappedbus.MappedBusReader;
-import com.github.aarunsoman.ipc.mappedbus.MappedBusWriter;
+import com.github.arunsoman.ipc.mappedbus.MappedBusReader;
+import com.github.arunsoman.ipc.mappedbus.MappedBusWriter;
 
 /**
  * This class tests that records written by multiple concurrent writers are stored correctly.

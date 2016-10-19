@@ -1,8 +1,8 @@
-package com.github.aarunsoman.ipc.mappedbus;
+package com.github.arunsoman.ipc.mappedbus;
 
 import java.io.File;
 
-import com.github.aarunsoman.ipc.mappedbus.MemoryMappedFile;
+import com.github.arunsoman.ipc.mappedbus.MemoryMappedFile;
 
 /**
  * Test program to ensure the ordering between non-volatile and volatile read/writes across

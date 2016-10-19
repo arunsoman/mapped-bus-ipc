@@ -1,6 +1,6 @@
-package com.github.aarunsoman.ipc.mappedbus.perf.sample.token;
-import com.github.aarunsoman.ipc.mappedbus.MappedBusMessage;
-import com.github.aarunsoman.ipc.mappedbus.MemoryMappedFile;
+package com.github.arunsoman.ipc.mappedbus.perf.sample.token;
+import com.github.arunsoman.ipc.mappedbus.MappedBusMessage;
+import com.github.arunsoman.ipc.mappedbus.MemoryMappedFile;
 
 
 public class Token implements MappedBusMessage {

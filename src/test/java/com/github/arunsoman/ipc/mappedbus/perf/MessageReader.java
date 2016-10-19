@@ -1,8 +1,8 @@
-package com.github.aarunsoman.ipc.mappedbus.perf;
+package com.github.arunsoman.ipc.mappedbus.perf;
 import org.junit.Test;
 
-import com.github.aarunsoman.ipc.mappedbus.MappedBusMessage;
-import com.github.aarunsoman.ipc.mappedbus.MappedBusReader;
+import com.github.arunsoman.ipc.mappedbus.MappedBusMessage;
+import com.github.arunsoman.ipc.mappedbus.MappedBusReader;
 
 public class MessageReader {
 

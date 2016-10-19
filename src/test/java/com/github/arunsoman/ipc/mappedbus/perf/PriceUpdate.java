@@ -1,8 +1,8 @@
-package com.github.aarunsoman.ipc.mappedbus.perf;
-import com.github.aarunsoman.ipc.mappedbus.MemoryMappedFile;
+package com.github.arunsoman.ipc.mappedbus.perf;
+import com.github.arunsoman.ipc.mappedbus.MemoryMappedFile;
 
 
-public class PriceUpdate implements com.github.aarunsoman.ipc.mappedbus.MappedBusMessage {
+public class PriceUpdate implements com.github.arunsoman.ipc.mappedbus.MappedBusMessage {
 	
 	public static final int TYPE = 0;
 

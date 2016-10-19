@@ -1,7 +1,7 @@
-package com.github.aarunsoman.ipc.mappedbus.perf;
+package com.github.arunsoman.ipc.mappedbus.perf;
 import java.io.File;
 
-import com.github.aarunsoman.ipc.mappedbus.MappedBusWriter;
+import com.github.arunsoman.ipc.mappedbus.MappedBusWriter;
 
 public class MessageWriter {
 

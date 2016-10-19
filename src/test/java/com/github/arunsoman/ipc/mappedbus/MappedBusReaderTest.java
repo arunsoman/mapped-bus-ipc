@@ -1,4 +1,4 @@
-package com.github.aarunsoman.ipc.mappedbus;
+package com.github.arunsoman.ipc.mappedbus;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -11,14 +11,14 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.github.aarunsoman.ipc.mappedbus.MappedBusMessage;
-import com.github.aarunsoman.ipc.mappedbus.MappedBusReader;
-import com.github.aarunsoman.ipc.mappedbus.MappedBusWriter;
-import com.github.aarunsoman.ipc.mappedbus.MemoryMappedFile;
-import com.github.aarunsoman.ipc.mappedbus.MappedBusConstants.Commit;
-import com.github.aarunsoman.ipc.mappedbus.MappedBusConstants.Length;
-import com.github.aarunsoman.ipc.mappedbus.MappedBusConstants.Rollback;
-import com.github.aarunsoman.ipc.mappedbus.MappedBusConstants.Structure;
+import com.github.arunsoman.ipc.mappedbus.MappedBusMessage;
+import com.github.arunsoman.ipc.mappedbus.MappedBusReader;
+import com.github.arunsoman.ipc.mappedbus.MappedBusWriter;
+import com.github.arunsoman.ipc.mappedbus.MemoryMappedFile;
+import com.github.arunsoman.ipc.mappedbus.MappedBusConstants.Commit;
+import com.github.arunsoman.ipc.mappedbus.MappedBusConstants.Length;
+import com.github.arunsoman.ipc.mappedbus.MappedBusConstants.Rollback;
+import com.github.arunsoman.ipc.mappedbus.MappedBusConstants.Structure;
 
 /**
  * This class tests MappedBusReader.

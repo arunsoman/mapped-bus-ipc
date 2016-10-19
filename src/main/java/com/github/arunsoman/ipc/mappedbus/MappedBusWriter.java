@@ -13,14 +13,14 @@
 * See the License for the specific language governing permissions and 
 * limitations under the License. 
 */
-package com.github.aarunsoman.ipc.mappedbus;
+package com.github.arunsoman.ipc.mappedbus;
 import java.io.EOFException;
 import java.io.File;
 import java.io.IOException;
 
-import com.github.aarunsoman.ipc.mappedbus.MappedBusConstants.Commit;
-import com.github.aarunsoman.ipc.mappedbus.MappedBusConstants.Length;
-import com.github.aarunsoman.ipc.mappedbus.MappedBusConstants.Structure;
+import com.github.arunsoman.ipc.mappedbus.MappedBusConstants.Commit;
+import com.github.arunsoman.ipc.mappedbus.MappedBusConstants.Length;
+import com.github.arunsoman.ipc.mappedbus.MappedBusConstants.Structure;
 
 /**
  * Class for writing messages to the bus.

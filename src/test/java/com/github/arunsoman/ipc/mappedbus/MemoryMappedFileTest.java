@@ -1,4 +1,4 @@
-package com.github.aarunsoman.ipc.mappedbus;
+package com.github.arunsoman.ipc.mappedbus;
 
 import static org.junit.Assert.assertEquals;
 
@@ -8,7 +8,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.github.aarunsoman.ipc.mappedbus.MemoryMappedFile;
+import com.github.arunsoman.ipc.mappedbus.MemoryMappedFile;
 
 public class MemoryMappedFileTest {
 

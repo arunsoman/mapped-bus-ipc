@@ -1,5 +1,5 @@
-package com.github.aarunsoman.ipc.mappedbus.perf.sample.object;
-import com.github.aarunsoman.ipc.mappedbus.MappedBusWriter;
+package com.github.arunsoman.ipc.mappedbus.perf.sample.object;
+import com.github.arunsoman.ipc.mappedbus.MappedBusWriter;
 
 public class ObjectWriter {
 

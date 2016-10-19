@@ -1,7 +1,7 @@
-package com.github.aarunsoman.ipc.mappedbus.perf.sample.bytearray;
+package com.github.arunsoman.ipc.mappedbus.perf.sample.bytearray;
 import java.util.Arrays;
 
-import com.github.aarunsoman.ipc.mappedbus.MappedBusReader;
+import com.github.arunsoman.ipc.mappedbus.MappedBusReader;
 
 public class ByteArrayReader {
 
