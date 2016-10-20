@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.arunsoman.ipc</groupId>
 	<artifactId>mapped-bus-ipc</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>mapped-bus-ipc</name>
 	<properties>
@@ -21,7 +21,7 @@
 		<connection>scm:git:https://github.com/arunsoman/mapped-bus-ipc.git</connection>
 		<developerConnection>scm:git:https://github.com/arunsoman/mapped-bus-ipc.git</developerConnection>
 		<url>https://github.com/arunsoman/mapped-bus-ipc/tree/master</url>
-		<tag>mapped-bus-ipc-0.0.3</tag>
+		<tag>mapped-bus-ipc-0.0.1</tag>
 	</scm>
 
 	<distributionManagement>
