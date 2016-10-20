@@ -1,8 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.arunsoman.ipc</groupId>
 	<artifactId>mapped-bus-ipc</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>mapped-bus-ipc</name>
 	<properties>
@@ -21,8 +22,8 @@
 		<connection>scm:git:git://github.com/arunsoman/mapped-bus-ipc.git</connection>
 		<developerConnection>scm:git:ssh://github.com/arunsoman/mapped-bus-ipc.git</developerConnection>
 		<url>https://github.com/arunsoman/mapped-bus-ipc/tree/master</url>
-	  <tag>mapped-bus-ipc-0.0.1</tag>
-  </scm>
+		<tag>mapped-bus-ipc-0.0.1</tag>
+	</scm>
 
 	<distributionManagement>
 		<snapshotRepository>
@@ -120,6 +121,17 @@
 					</executions>
 				</plugin>
 
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>2.5.3</version>
+					<configuration>
+						<autoVersionSubmodules>true</autoVersionSubmodules>
+						<useReleaseProfile>false</useReleaseProfile>
+						<releaseProfiles>release</releaseProfiles>
+						<goals>deploy</goals>
+					</configuration>
+				</plugin>
 				<plugin>
 					<groupId>org.sonatype.plugins</groupId>
 					<artifactId>nexus-staging-maven-plugin</artifactId>
