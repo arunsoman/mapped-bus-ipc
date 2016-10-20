@@ -44,13 +44,13 @@ public class TokenTest {
 	@After public void after() {
 		new File(FILE_NAME).delete();
 	}
-	
+	/*
 	@Test public void test() throws Exception {
 		for (int i=0; i < NUM_RUNS; i++) {
 			runTest();
 		}
 	}
-	
+	*/
 	private void runTest() throws Exception {
 		new File(FILE_NAME).delete();
 
