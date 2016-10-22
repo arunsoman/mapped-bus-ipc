@@ -1,4 +1,12 @@
 ## Mappedbus is a Java based high throughput, low latency message bus, using either a memory mapped file or shared memory as transport
+### last build [![Build Status](https://travis-ci.org/arunsoman/mapped-bus-ipc#?branch=master)](https://travis-ci.org/arunsoman/mapped-bus-ipc#)
+[repo](https://oss.sonatype.org/content/groups/public/com)
+### dependency
+<dependency>
+  <groupId>com.github.arunsoman.ipc</groupId>
+  <artifactId>mapped-bus-ipc</artifactId>
+  <version>0.0.5</version>
+</dependency>
 
 Mappedbus was inspired by [Java Chronicle](https://github.com/OpenHFT/Chronicle-Queue) with the main difference that it's designed to efficiently support multiple writers – enabling use cases where the order of messages produced by multiple processes are important.
 
@@ -144,6 +152,4 @@ Here's how Mappedbus solves the synchronization problem between multiple writers
 
 The solution seems to work well on Linux x86 with Oracle's JVM (1.8) but it probably won't work on all platforms. The project contains a test (called IntegrityTest) to check whether it works on the platform used.
 
-### Questions
-
-For questions or suggestions feel free to drop a mail to info@mappedbus.io
+### forked from mappedbus.io
