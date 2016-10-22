@@ -1,13 +1,14 @@
 ## Mappedbus is a Java based high throughput, low latency message bus, using either a memory mapped file or shared memory as transport
 ### last build [![Build Status](https://travis-ci.org/arunsoman/mapped-bus-ipc#?branch=master)](https://travis-ci.org/arunsoman/mapped-bus-ipc#)
-[repo](https://oss.sonatype.org/content/groups/public/com)
+[repo: https://oss.sonatype.org/content/groups/public/com] (https://oss.sonatype.org/content/groups/public/com)
 ### dependency
+```xml
 <dependency>
   <groupId>com.github.arunsoman.ipc</groupId>
   <artifactId>mapped-bus-ipc</artifactId>
   <version>0.0.5</version>
 </dependency>
-
+```
 Mappedbus was inspired by [Java Chronicle](https://github.com/OpenHFT/Chronicle-Queue) with the main difference that it's designed to efficiently support multiple writers – enabling use cases where the order of messages produced by multiple processes are important.
 
 <p align="center">
