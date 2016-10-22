@@ -212,6 +212,6 @@ public class MemoryMappedFile {
 	}
 
 	protected long getAndAddLong(long pos, long delta) {
-		return unsafe.getAndAddLong(null, pos + addr, delta);
+		return (Long)unsafe.getAndAddLong(null, pos + addr, delta);
 	}
 }
