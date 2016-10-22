@@ -7,4 +7,4 @@ env:
 language: java
 jdk:
   - oraclejdk8
-script: mvn test --settings .settings.xml
+script: mvn test
