@@ -8,4 +8,4 @@ language: java
 jdk:
   - oraclejdk8
 
-script: mvn --settings .settings.xml test -Dmaven.javadoc.skip=true -B -V
+script: mvn --settings settings.xml test -Dmaven.javadoc.skip=true -B -V
